@@ -105,6 +105,7 @@ const TicTacToe = () => {
         titleRef.current.innerHTML = "<span>Tic-Tac-Toe | ARF</span>"
         box_array.map((e)=>{
             e.current.innerHTML = "";
+            return null;
         })
     }
 
